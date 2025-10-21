@@ -104,7 +104,7 @@ This files [Table of contents] are outlined below
 @import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
 /*===GENERAL===*/
 .site-text-primary {
-  color: #f40404;
+  color: #f40404 ;
 }
 
 .site-text-black {
@@ -3719,7 +3719,7 @@ THEMEFOREST REQUIRED CLASSES
   color: #e2791d;
 }
 .header-style-2 .header-nav .nav > li:hover > a {
-  color: #e2791d;
+  color: #f40404;
 }
 .header-style-2 .header-nav .nav > li:hover > .sub-menu {
   opacity: 1;
@@ -4071,7 +4071,7 @@ THEMEFOREST REQUIRED CLASSES
   position: absolute;
   left: 50%;
   transform: translateX(-50%) skew(-25deg);
-  background-color: #e2791d;
+  background-color: #f40404;
   top: 0px;
   z-index: -1;
   margin-left: -1px;
@@ -4146,7 +4146,7 @@ THEMEFOREST REQUIRED CLASSES
   position: absolute;
   left: 0px;
   transform: translateX(0%) skew(-25deg);
-  background-color: #e2791d;
+  background-color: #f40404;
   top: 0px;
   z-index: -1;
   margin-left: 5px;
@@ -5257,7 +5257,7 @@ THEMEFOREST REQUIRED CLASSES
 
 /** - Footer Dark Version Css */
 .footer-dark {
-  background-color: #000;
+  /* background-color: #000; */
   color: #797979;
 }
 .footer-dark .logo-footer {
@@ -5277,7 +5277,7 @@ THEMEFOREST REQUIRED CLASSES
 }
 .footer-dark .footer-top {
   padding: 0;
-  background: #312925;
+  background: linear-gradient(135deg, #fe1b48 0%, #ff431d 90%);
   padding: 100px 0px 60px 0px;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -5309,7 +5309,7 @@ THEMEFOREST REQUIRED CLASSES
 }
 .footer-dark .call-us a {
   display: block;
-  color: #f40404;
+  color: #fff;
   font-size: 32px;
   line-height: 32px;
   font-family: "Urbanist", serif;
@@ -5345,10 +5345,10 @@ THEMEFOREST REQUIRED CLASSES
   height: 36px;
   width: 36px;
   display: block;
-  background-color: #f40404;
+  background-color: #fff;
   line-height: 36px;
   padding: 0;
-  color: #fff;
+  color: #f40404;
   font-size: 14px;
   text-align: center;
   border-radius: 50%;
@@ -5470,7 +5470,7 @@ THEMEFOREST REQUIRED CLASSES
   top: 0;
   font-size: 24px;
   line-height: 24px;
-  color: #f40404;
+  color: #fff;
 }
 .widget_address li span {
   display: block;
@@ -7255,10 +7255,10 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   content: "";
   position: absolute;
   inset: 0;
-  background: #e2791d;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 67%, 50% 67%, 50% 34%, 0 34%);
-          clip-path: polygon(0 0, 100% 0, 100% 67%, 50% 67%, 50% 34%, 0 34%);
-  animation: sp7 2s infinite;
+  /* background: #e2791d; */
+  /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 67%, 50% 67%, 50% 34%, 0 34%); */
+          /* clip-path: polygon(0 0, 100% 0, 100% 67%, 50% 67%, 50% 34%, 0 34%); */
+  /* animation: sp7 2s infinite; */
 }
 
 .loader::after {
@@ -8896,7 +8896,7 @@ form.woocommerce-ordering:after {
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: #e2791d;
+  background: linear-gradient(135deg, #fe1b48 0%, #ff2d03 100%);
   top: 100%;
   left: 0;
   transition: 0.5s all ease;
@@ -11154,7 +11154,7 @@ select {
   margin-left: -20px;
   margin-top: -20px;
   border-radius: 50%;
-  background-color: #e2791d;
+  background-color: #f40404;
   transform: translate(-50%, -50%);
   transition: 0.1s;
   pointer-events: none;
@@ -12361,7 +12361,9 @@ select {
 
 /** - Awards Section Css Start */
 .twm-achi-section-wrap {
-  background-color: #443935;
+ /* background-color: #fff; */
+
+
   overflow: hidden;
 }
 
@@ -12395,7 +12397,7 @@ select {
   }
 }
 .twm-achi-section-content .twm-achi-section-title .title_split_anim.title span {
-  color: #fff;
+  color: #443935;
 }
 .twm-achi-section-content .twm-achi-section-title .title_split_anim.title::after {
   content: "";
@@ -12463,7 +12465,7 @@ select {
   position: relative;
   z-index: 10;
   font-size: 18px;
-  color: #fff;
+  color: #f40404;
   font-family: "Marcellus", serif;
   text-transform: uppercase;
 }
@@ -12498,7 +12500,7 @@ select {
   mix-blend-mode: difference;
   display: inline-block;
   position: relative;
-  color: #fff;
+  color: #f40404;
   font-size: 36px;
   font-family: "Marcellus", serif;
 }
@@ -12589,7 +12591,7 @@ select {
 @keyframes fadeIn {
   0% {
     opacity: 0;
-    background-color: #e2791d;
+    background-color: #ff0000;
   }
   100% {
     opacity: 1;
@@ -12858,3 +12860,22 @@ select {
 .sidebar-info-contents .text {
   color: #9b9fb5;
 }/*# sourceMappingURL=style.css.map */
+
+/* Responsive Map Container */
+.responsive-map {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+.responsive-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
