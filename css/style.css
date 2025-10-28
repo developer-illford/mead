@@ -8896,7 +8896,8 @@ form.woocommerce-ordering:after {
   position: absolute;
   height: 100%;
   width: 100%;
-  background: linear-gradient(135deg, #fe1b48 0%, #ff2d03 100%);
+  background:#efe6d8;
+
   top: 100%;
   left: 0;
   transition: 0.5s all ease;
@@ -9001,7 +9002,7 @@ form.woocommerce-ordering:after {
 }
 .team-effect-hvr2 .wt-title-position {
   margin-bottom: 0;
-  color: #000;
+  color: #fff;
   display: block;
 }
 .team-effect-hvr2 img {
