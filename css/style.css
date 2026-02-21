@@ -4570,6 +4570,9 @@ THEMEFOREST REQUIRED CLASSES
     font-size: 30px;
     margin-bottom: 20px;
   }
+
+.loading-area .loading-pic{left:43% !important;}
+
 }
 
 .section-head.left.wt-small-separator-outer p {
