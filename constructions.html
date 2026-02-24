@@ -63,9 +63,15 @@
     100%{ transform: rotate(360deg); }
 }
 </style>
+
+
+
+
 </head>
 
 <body>
+
+
 
     <!-- LOADING AREA START ===== -->
     <div class="loading-area">
@@ -144,34 +150,31 @@
                                 </li> -->
 
 
-                                 <li class="has-child">
+                                  <li class="has-child">
                                     <a href="javascript:;">Services</a>
                                     <ul class="sub-menu">
 
                                         <li><a href="javascript:;">Interiors</a>
                                             <ul class="sub-menu">
-                                                <li><a href="service-detail.html">Residential Interior Design</a></li>
-                                                <li><a href="service-detail.html">Commercial Interior Fit-Outs</a></li>
-                                                  <li><a href="service-detail.html">Modular Kitchen Solutions</a></li>
-                                                    <li><a href="service-detail.html">Bedroom & Wardrobe Design</a></li>
-                                                      <li><a href="service-detailhtml">False Ceiling & Lighting Design</a></li>
-                                                        <li><a href="service-detail.html">Renovation & Remodeling Services</a></li>
+                                                <li><a href="interiors.html">Residential Interior Design</a></li>
+                                                <li><a href="interiors.html">Commercial Interior Fit-Outs</a></li>
+                                                  <li><a href="interiors.html">Modular Kitchen Solutions</a></li>
+                                                    <li><a href="interiors.html">Bedroom & Wardrobe Design</a></li>
+                                                      <li><a href="interiors.html">False Ceiling & Lighting Design</a></li>
+                                                        <li><a href="interiors.html">Renovation & Remodeling Services</a></li>
                                             </ul>
                                         </li>
 
                                         <li><a href="javascript:;">Constructions</a>
                                             <ul class="sub-menu">
-                                                <li><a href="service-detail.html">Residential Construction</a></li>
-                                                <li><a href="service-detail.html">Commercial Construction</a></li>
-                                                   <li><a href="service-detail.html">Turnkey Construction Projects</a></li>
-                                                      <li><a href="service-detail.html">Structural & Civil Works</a></li>
-                                                         <li><a href="service-detail.html">Renovation & Extension Projects</a></li>
-                                                            <li><a href="service-detail.html">Project Management & Consulting</a></li>
-
+                                                <li><a href="constructions.html">Residential Construction</a></li>
+                                                <li><a href="constructions.html">Commercial Construction</a></li>
+                                                   <li><a href="constructions.html">Turnkey Construction Projects</a></li>
+                                                      <li><a href="constructions.html">Structural & Civil Works</a></li>
+                                                         <li><a href="constructions.html">Renovation & Extension Projects</a></li>
+                                                            <li><a href="constructions.html">Project Management & Consulting</a></li>
                                             </ul>
-                                        </li>
-
-                                                                                        
+                                        </li>                                              
                                     </ul>                                
                                 </li>
 
@@ -308,13 +311,13 @@
                 <div class="wt-bnr-inr-entry">
                     <div class="banner-title-outer">
                         <div class="banner-title-name">
-                            <h2 class="wt-title">Services</h2>
+                            <h2 class="wt-title">Constructions</h2>
                         </div>
                         <!-- BREADCRUMB ROW -->
                         <div>
                             <ul class="wt-breadcrumb breadcrumb-style-2">
                                 <li><a href="index.html">Home</a></li>
-                                <li>Services</li>
+                                <li>Constructions</li>
                             </ul>
                         </div>
                     </div>
@@ -324,6 +327,137 @@
                 </div>
             </div>
             <!-- INNER PAGE BANNER END -->
+<style>
+    .service-icon-box-two{height: 675px;}
+    .service-icon-box-two .service-icon-content {
+    padding: 0px 0px 0px 0px;
+}
+
+.service-icon-box-two .service-icon-box-bootom {
+    padding-top: 20px;
+}
+
+.hyphen-list {
+    list-style: none;
+    padding-left: 15px;
+}
+
+.hyphen-list li {
+    position: relative;
+    padding-left: 17px;
+    margin-bottom: 8px;
+}
+
+.hyphen-list li::before {
+    content: "-";
+    position: absolute;
+    left: 0;
+    color: #000;
+    font-weight: 600;
+}
+
+
+</style>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+
+
+<style>
+.service-media {
+    width: 100%;
+    height: 390px;
+    overflow: hidden;
+    position: relative;
+}
+
+.service-media img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Hide arrows */
+.swiper-button-next,
+.swiper-button-prev {
+    opacity: 0;
+    transition: 0.3s ease;
+    color: #fff;
+}
+
+/* Show arrows on hover */
+.service-media:hover .swiper-button-next,
+.service-media:hover .swiper-button-prev {
+    opacity: 1;
+}
+
+/* Optional: smaller arrows */
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+.service-media .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.service-media .swiper-wrapper {
+    height: 100%;
+}
+
+.service-media .swiper-slide {
+    height: 100%;
+}
+
+/* Image full cover */
+.service-media .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+.service-icon-box-two .service-media:before{
+    content: unset;
+}
+
+.swiper-button-prev{
+    left:0;
+}
+.swiper-button-next{
+    right:0;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+</style>
+
+
+
+
+
+
+
+
 
             <!-- WE PROVIDE SERVICE SECTION START -->
             <div class="section-full p-t120 p-b90">
@@ -333,121 +467,527 @@
                     <div class="section-head center wt-small-separator-outer">
                         <div class="wt-small-separator site-text-primary">
                             <i class="bi bi-house"></i>
-                            <div>Our Expertise</div>
+                            <div>Services</div>
                         </div>
-                        <h2 class="wt-title title_split_anim">Get More With Our Expert Services</h2>
+                        <h2 class="wt-title title_split_anim">Our Constructions</h2>
                     </div>
                     <!-- TITLE END-->
 
                     <div class="section-content">
                         <div class="service-icon-box-wrap">
+
                             <div class="row justify-content-center d-flex">
-                                <!--Column-1-->
+                             
                                 <div class="col-xl-4 col-lg-4 col-md-6 m-b30">
                                     <div class="service-icon-box-two">
-                                        <div class="service-media"><img src="images/services/1.jpg" alt=""></div>
-                                        <div class="service-icon-content">
-                                            <p>We deliver turnkey RCC and PEB building solutions, managing design,
-                                                procurement, construction for diverse projects.</p>
-                                            <a href="#" class="site-button-link site-text-primary">Read More</a>
-                                        </div>
-                                        <div class="service-icon-box-bootom">
-                                            <div class="service-icon"><span><img src="images/icons/construction.png"
-                                                        alt="#"></span></div>
-                                            <h3 class="wt-title"><a href="#">Engineering, Procurement
-                                                    &amp; Construction (EPC)</a></h3>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--Column 2-->
-                                <div class="col-xl-4 col-lg-4 col-md-6 m-b30">
-                                    <div class="service-icon-box-two">
-                                        <div class="service-media"><img src="images/services/2.jpg" alt=""></div>
-                                        <div class="service-icon-content">
-                                            <p>Custom steel buildings: rapid, durable, cost-effective, sustainable
-                                                industrial and commercial solutions.</p>
-                                            <a href="#" class="site-button-link site-text-primary">Read More</a>
-                                        </div>
-                                        <div class="service-icon-box-bootom">
-                                            <div class="service-icon"><span><img src="images/icons/peb.png"
-                                                        alt="#"></span></div>
-                                            <h3 class="wt-title"><a href="#">Pre-Engineered Building
-                                                    (PEB) Systems</a></h3>
-                                        </div>
-                                    </div>
-                                </div>
+                                        <!-- <div class="service-media"><img src="images/services/1.jpg" alt=""></div> -->
 
+<div class="service-media">
+    <div class="swiper mySwiper1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/services/1.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/services/2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/services/3.jpg" alt="">
+            </div>
+        </div>
 
-                                <!--Column 3-->
-                                <div class="col-xl-4 col-lg-4 col-md-6 m-b30">
-                                    <div class="service-icon-box-two">
-                                        <div class="service-media"><img src="images/services/3.jpg" alt=""></div>
+        <!-- Navigation Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</div>
+
+                                          <div class="service-icon-box-bootom">
+                                          
+                                            <h3 class="wt-title"><a href="javascript:void(0);" class="openPopup">Residential Construction</a></h3>
+                                        </div>
+
                                         <div class="service-icon-content">
-                                            <p>Design and execution of durable RCC structures with value-engineered
-                                                solutions and structural audits.
+                                            <p>
+                                                <ul class="hyphen-list"><li>Custom home building</li>
+                                                <li>Villas</li><li>Duplex / Triplex homes</li></ul>
                                             </p>
-                                            <a href="#" class="site-button-link site-text-primary">Read More</a>
+                                           <a href="javascript:void(0);" class="site-button-link site-text-primary openPopup">Read More</a>
                                         </div>
 
-                                        <div class="service-icon-box-bootom">
-                                            <div class="service-icon"><span><img src="images/icons/civil.png"
-                                                        alt="#"></span></div>
-                                            <h3 class="wt-title"><a href="#">Civil &amp; Structural
-                                                    Works</a></h3>
-                                        </div>
+
+
+
+                                        
+                                        
+<div class="popup-content" style="display:none;">
+            <h2>Residential Construction</h2>
+
+     
+
+             <div class="service-item">
+            <h3>Custom home building</h3>
+            <p>
+                  Personalized home construction tailored to your design preferences, functional requirements, and budget expectations.
+            </p>
+        </div>
+
+        <div class="service-item">
+            <h3>Villas</h3>
+            <p>
+                 Premium villa construction featuring spacious layouts, elegant architecture, and superior finishes for luxurious living.
+            </p>
+        </div>
+
+            <div class="service-item">
+            <h3>Duplex / Triplex homes</h3>
+            <p>
+                Efficient multi-level home construction designed to maximize space utilization while maintaining comfort and structural integrity.
+            </p>
+        </div>
+
+
+
+  
+              <div  style="display: flex;align-items: end;justify-content: end;">
+             <button type="button" class="site-button" onclick="window.location.href='project.html'">
+    Portfolio
+</button></div>
+
+        </div>
+
+
+                                      
                                     </div>
                                 </div>
-                                <!--Column-4-->
+                           
                                 <div class="col-xl-4 col-lg-4 col-md-6 m-b30">
                                     <div class="service-icon-box-two">
-                                        <div class="service-media"><img src="images/services/4.jpg" alt=""></div>
-                                        <div class="service-icon-content">
-                                            <p>Architectural services: complete, functional, sustainable designs with
-                                                planning, visualization, compliance.</p>
-                                            <a href="#" class="site-button-link site-text-primary">Read More</a>
-                                        </div>
+                                        <!-- <div class="service-media"><img src="images/services/2.jpg" alt=""></div> -->
+
+
+                                        <div class="service-media">
+    <div class="swiper mySwiper1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/services/3.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/services/2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/services/1.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- Navigation Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</div>
+
+
+
                                         <div class="service-icon-box-bootom">
-                                            <div class="service-icon"><span><img src="images/icons/architecture.png"
-                                                        alt="#"></span></div>
-                                            <h3 class="wt-title"><a href="#">Architecture &amp; Design</a>
-                                            </h3>
+                                          
+                                            <h3 class="wt-title"><a href="javascript:void(0);" class="openPopup">Commercial Construction</a></h3>
                                         </div>
+                                        <div class="service-icon-content">
+                                            <p>
+                                                 <ul class="hyphen-list"><li>Office buildings</li>
+                                                <li>Retail complexes</li>
+                                            <li>Warehouses</li></ul>
+                                            </p>
+                                             <a href="javascript:void(0);" class="site-button-link site-text-primary openPopup">Read More</a>
+                                        </div>
+
+
+
+
+                                        
+<div class="popup-content" style="display:none;">
+            <h2>Commercial Construction</h2>
+
+     
+
+             <div class="service-item">
+            <h3>Office buildings</h3>
+            <p>
+                        Modern and functional office building construction focused on optimized layouts, structural strength, and long-term operational efficiency.
+            </p>
+        </div>
+
+        <div class="service-item">
+            <h3>Retail complexes</h3>
+            <p>
+                     Professionally designed retail complexes that enhance customer flow, maximize commercial space utilization, and support brand visibility.
+            </p>
+        </div>
+
+        <div class="service-item">
+            <h3>Warehouses</h3>
+            <p>
+                          Robust warehouse construction solutions built for high load capacity, efficient storage systems, and smooth logistics operations.
+            </p>
+        </div>
+
+  
+              <div  style="display: flex;align-items: end;justify-content: end;">
+             <button type="button" class="site-button" onclick="window.location.href='project.html'">
+    Portfolio
+</button></div>
+
+        </div>
+
+
+
+
+
+
+
+
+                                     
                                     </div>
                                 </div>
-                                <!--Column-5-->
+
+
+                             
                                 <div class="col-xl-4 col-lg-4 col-md-6 m-b30">
                                     <div class="service-icon-box-two">
-                                        <div class="service-media"><img src="images/services/5.jpg" alt=""></div>
-                                        <div class="service-icon-content">
-                                            <p>Turnkey interior design: commercial, residential, industrial spaces with
-                                                planning, MEP, finishes.</p>
-                                            <a href="#" class="site-button-link site-text-primary">Read More</a>
-                                        </div>
+                                        <!-- <div class="service-media"><img src="images/services/3.jpg" alt=""></div> -->
+
+<div class="service-media">
+    <div class="swiper mySwiper1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/services/2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/services/3.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/services/1.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- Navigation Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</div>
+
+
                                         <div class="service-icon-box-bootom">
-                                            <div class="service-icon"><span><img src="images/icons/interior.png"
-                                                        alt="#"></span></div>
-                                            <h3 class="wt-title"><a href="#">Interior Design &amp;
-                                                    Fit-Out</a></h3>
+                                          
+                                            <h3 class="wt-title"><a href="javascript:void(0);" class="openPopup">Turnkey Construction Projects</a></h3>
                                         </div>
+                                        <div class="service-icon-content">
+                                            <p> <ul class="hyphen-list"><li>End-to-end project execution</li>
+                                                <li>Design + Build services</li>
+                                           
+                                        </ul>
+                                            </p>
+                                             <a href="javascript:void(0);" class="site-button-link site-text-primary openPopup">Read More</a>
+                                        </div>
+
+
+
+
+
+                                        
+<div class="popup-content" style="display:none;">
+            <h2>Turnkey Construction Projects</h2>
+
+     
+
+             <div class="service-item">
+            <h3>End-to-end project execution</h3>
+            <p>
+                        Comprehensive management of all project phases including planning, procurement, construction, and finishing for a hassle-free experience.
+            </p>
+        </div>
+
+        <div class="service-item">
+            <h3>Design + Build services</h3>
+            <p>
+                       Integrated design and construction services that streamline communication, reduce costs, and deliver cohesive, high-quality project outcomes.
+            </p>
+        </div>
+
+  
+
+  
+              <div  style="display: flex;align-items: end;justify-content: end;">
+             <button type="button" class="site-button" onclick="window.location.href='project.html'">
+    Portfolio
+</button></div>
+
+        </div>
+
+
+
+
+                                       
                                     </div>
                                 </div>
-                                <!--Column-6-->
+                               
                                 <div class="col-xl-4 col-lg-4 col-md-6 m-b30">
                                     <div class="service-icon-box-two">
-                                        <div class="service-media"><img src="images/services/6.jpg" alt=""></div>
-                                        <div class="service-icon-content">
-                                            <p>Building maintenance services: AMC for civil, electrical, HVAC, plumbing
-                                                with preventive support.</p>
-                                            <a href="#" class="site-button-link site-text-primary">Read More</a>
-                                        </div>
+                                        <!-- <div class="service-media"><img src="images/services/4.jpg" alt=""></div> -->
+
+
+                                        <div class="service-media">
+    <div class="swiper mySwiper1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/services/1.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/services/2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/services/3.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- Navigation Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</div>
+
+
                                         <div class="service-icon-box-bootom">
-                                            <div class="service-icon"><span><img src="images/icons/maintanace.png"
-                                                        alt="#"></span></div>
-                                            <h3 class="wt-title"><a href="#">Maintenance &amp; Facility
-                                                    Management</a></h3>
+                                          
+                                            <h3 class="wt-title"><a href="javascript:void(0);" class="openPopup">Structural & Civil Works</a></h3>
                                         </div>
+                                        <div class="service-icon-content">
+                                            <p><ul class="hyphen-list"><li>Foundation works</li>
+                                                <li>RCC structures</li>
+                                            <li>Structural strengthening</li></ul></p>
+                                             <a href="javascript:void(0);" class="site-button-link site-text-primary openPopup">Read More</a>
+                                        </div>
+
+
+
+
+<div class="popup-content" style="display:none;">
+            <h2>Structural & Civil Works</h2>
+
+     
+
+             <div class="service-item">
+            <h3>Foundation works</h3>
+            <p>
+                       Strong and reliable foundation solutions including excavation, footing, and base preparation to provide maximum structural stability.
+            </p>
+        </div>
+
+        <div class="service-item">
+            <h3>RCC structures</h3>
+            <p>
+                         Reinforced Cement Concrete (RCC) construction for beams, columns, slabs, and frameworks designed to deliver superior strength and load-bearing capacity.
+            </p>
+        </div>
+
+        <div class="service-item">
+            <h3>Structural strengthening</h3>
+            <p>
+                        Advanced reinforcement techniques to enhance the stability, durability, and load resistance of existing structures.
+            </p>
+        </div>
+
+  
+              <div  style="display: flex;align-items: end;justify-content: end;">
+             <button type="button" class="site-button" onclick="window.location.href='project.html'">
+    Portfolio
+</button></div>
+
+        </div>
+
+
+
+
+
+                                    
                                     </div>
                                 </div>
+                           
+                                <div class="col-xl-4 col-lg-4 col-md-6 m-b30">
+                                    <div class="service-icon-box-two">
+                                        <!-- <div class="service-media"><img src="images/services/5.jpg" alt=""></div> -->
+
+
+                                        
+
+                                        <div class="service-media">
+    <div class="swiper mySwiper1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/services/3.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/services/2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/services/1.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- Navigation Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</div>
+
+                                        <div class="service-icon-box-bootom">
+                                          
+                                            <h3 class="wt-title"><a href="javascript:void(0);" class="openPopup">Renovation & Extension Projects</a></h3>
+                                        </div>
+                                        <div class="service-icon-content">
+                                            <p><ul class="hyphen-list"><li>Building extensions</li>
+                                                <li>Floor additions</li>
+                                            <li>AStructural modifications</li></ul></p>
+                                         <a href="javascript:void(0);" class="site-button-link site-text-primary openPopup">Read More</a>
+                                            
+                                        </div>
+
+
+
+
+                                        <div class="popup-content" style="display:none;">
+            <h2>Renovation & Extension Projects</h2>
+
+     
+
+             <div class="service-item">
+            <h3>Building extensions</h3>
+            <p>
+                      Seamless structural extensions that add new rooms or expand existing spaces while maintaining architectural consistency and structural integrity.
+            </p>
+        </div>
+
+        <div class="service-item">
+            <h3>Floor additions</h3>
+            <p>
+                       Professional vertical expansion solutions that increase usable space with safe construction practices and optimized structural planning.
+            </p>
+        </div>
+
+        <div class="service-item">
+            <h3>Structural modifications</h3>
+            <p>
+                         Expert structural alterations including beam reinforcement, wall adjustments, and layout reconfiguration to improve strength and space utilization.
+            </p>
+        </div>
+
+            <!-- <a href="projects.html" class="site-button">more</a> -->
+              <div  style="display: flex;align-items: end;justify-content: end;">
+             <button type="button" class="site-button" onclick="window.location.href='project.html'">
+    Portfolio
+</button></div>
+
+        </div>
+
+
+
+
+                                 
+                                    </div>
+                                </div>
+                              
+                                <div class="col-xl-4 col-lg-4 col-md-6 m-b30">
+                                    <div class="service-icon-box-two">
+                                        <!-- <div class="service-media"><img src="images/services/6.jpg" alt=""></div> -->
+
+
+                                        
+
+                                        <div class="service-media">
+    <div class="swiper mySwiper1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/services/2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/services/1.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/services/3.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- Navigation Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</div>
+
+                                        <div class="service-icon-box-bootom">
+                                          
+                                            <h3 class="wt-title"><a href="javascript:void(0);" class="openPopup">Project Management & Consulting</a></h3>
+                                        </div>
+                                        <div class="service-icon-content">
+                                            <p><ul class="hyphen-list"><li>Planning & approvals</li>
+                                                <li>Budget estimation</li>
+                                            <li>Site supervision & quality control</li></ul></p>
+                                            <a href="javascript:void(0);" class="site-button-link site-text-primary openPopup">Read More</a>
+                                        </div>
+
+
+
+             <div class="popup-content" style="display:none;">
+            <h2>Project Management & Consulting</h2>
+
+            <!-- <img src="images/services/2.jpg" style="width:100%; margin-bottom:15px;"> -->
+
+            <!-- <p>
+                We provide complete renovation and remodeling solutions
+                for residential and commercial properties with modern design concepts.
+            </p> -->
+
+            <!-- <ul class="hyphen-list">
+                <li>Home renovation</li>
+                <li>Office remodeling</li>
+                <li>Structural interior upgrades</li>
+             
+            </ul> -->
+
+             <div class="service-item">
+            <h3>Planning & approvals</h3>
+            <p>
+                       Assistance with project planning, documentation, and obtaining necessary approvals to ensure compliance with regulations and smooth project initiation.
+            </p>
+        </div>
+
+        <div class="service-item">
+            <h3>Budget estimation</h3>
+            <p>
+                        Accurate cost analysis and detailed budget planning to help manage expenses effectively without compromising quality and design standards.
+            </p>
+        </div>
+
+        <div class="service-item">
+            <h3>Site supervision & quality control</h3>
+            <p>
+                      On-site monitoring and strict quality checks to maintain construction standards, ensure safety, and deliver projects as per specifications.
+            </p>
+        </div>
+
+            <!-- <a href="projects.html" class="site-button">more</a> -->
+             <div  style="display: flex;align-items: end;justify-content: end;">
+             <button type="button" class="site-button" onclick="window.location.href='project.html'">
+    Portfolio
+</button></div>
+
+        </div>
+
+
+                                   
+                                    </div>
+                                </div>
+
+
                             </div>
                         </div>
                     </div>
@@ -456,6 +996,12 @@
 
             </div>
             <!-- WE PROVIDE SERVICE SECTION END -->
+
+
+
+
+
+
 
             <!-- AWARDS SECTION START -->
             <div class="section-full twm-achi-section-wrap p-t120 p-b90 ">
@@ -826,6 +1372,83 @@
 
 
     <!-- JAVASCRIPT  FILES ========================================= -->
+
+<style>
+    .custom-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.custom-modal-content {
+    background: #fff;
+    width: 90%;
+    max-width: 700px;
+    padding: 30px;
+    border-radius: 8px;
+    max-height: 80vh;
+    overflow-y: auto;
+    position: relative;
+}
+
+.closeModal {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#modalDynamicContent h2{
+        font-size: 30px;    padding-bottom: 20px;
+}
+
+#modalDynamicContent .site-button{padding: 5px 25px;
+
+background-color: #ffffff;
+color: #f40404;
+border: 1px solid #f40404;
+}
+#modalDynamicContent .site-button:after{
+        top: -4px;
+}
+
+
+#modalDynamicContent h3{
+       /* font-size: 26px; */
+    /* font-weight: 600; */
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+#modalDynamicContent h3::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    /* background: #ed0900; */
+     border: 1px solid #ed0900; 
+    transform: rotate(45deg);
+    display: inline-block;
+}
+
+
+
+</style>
+
+    <div id="serviceModal" class="custom-modal">
+    <div class="custom-modal-content">
+        <span class="closeModal">&times;</span>
+        <div id="modalDynamicContent"></div>
+    </div>
+</div>
+
+
+
     <script src="js/jquery-3.7.1.min.js"></script><!-- JQUERY.MIN JS -->
     <script src="js/popper.min.js"></script><!-- POPPER.MIN JS -->
     <script src="js/bootstrap.min.js"></script><!-- BOOTSTRAP.MIN JS -->
@@ -848,6 +1471,80 @@
     <!-- Title animation Js -->
     <script src="js/gsap.min.js"></script><!-- cursor -->
     <script src="js/custom.js"></script><!-- CUSTOM FUCTIONS  -->
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+var swiper1 = new Swiper(".mySwiper1", {
+    loop: true,
+    navigation: {
+        nextEl: ".mySwiper1 .swiper-button-next",
+        prevEl: ".mySwiper1 .swiper-button-prev",
+    },
+});
+
+var swiper2 = new Swiper(".mySwiper2", {
+    loop: true,
+    navigation: {
+        nextEl: ".mySwiper2 .swiper-button-next",
+        prevEl: ".mySwiper2 .swiper-button-prev",
+    },
+});
+
+var swiper3 = new Swiper(".mySwiper3", {
+    loop: true,
+    navigation: {
+        nextEl: ".mySwiper3 .swiper-button-next",
+        prevEl: ".mySwiper3 .swiper-button-prev",
+    },
+});
+</script>
+
+
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    const modal = document.getElementById("serviceModal");
+    const modalContent = document.getElementById("modalDynamicContent");
+    const buttons = document.querySelectorAll(".openPopup");
+    const closeBtn = document.querySelector(".closeModal");
+
+    buttons.forEach(button => {
+        button.addEventListener("click", function() {
+
+            const card = this.closest(".service-icon-box-two");
+            const hiddenContent = card.querySelector(".popup-content").innerHTML;
+
+            // Replace previous content
+            modalContent.innerHTML = hiddenContent;
+
+            // Show modal
+            modal.style.display = "flex";
+        });
+    });
+
+    closeBtn.addEventListener("click", function() {
+        modal.style.display = "none";
+        modalContent.innerHTML = ""; // optional clean reset
+    });
+
+    window.addEventListener("click", function(e){
+        if(e.target === modal){
+            modal.style.display = "none";
+            modalContent.innerHTML = "";
+        }
+    });
+
+});
+
+</script>
 
 </body>
 
