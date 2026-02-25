@@ -14738,3 +14738,9 @@ select {
   color: #000000;
   font-size: 13px;
 }
+
+
+.header-style-2 .header-nav .nav > li > .sub-menu 
+{
+	    left: -60px !important;
+}
