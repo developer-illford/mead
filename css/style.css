@@ -14744,6 +14744,7 @@ select {
 {
 	    left: -60px !important;
 }
+<<<<<<< HEAD
 
 
 .testimonial-1-content .testimonial-1 .testimonial-info .testimonial-rating i {
@@ -14769,3 +14770,5 @@ select {
 .team-effect-hvr2 p.icon-links a:has(.bi-dribbble) {
   display: none;
 }
+=======
+>>>>>>> f4eec821f73373ec8de8533568f95d7ce2503f4d
