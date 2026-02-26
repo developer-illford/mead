@@ -14738,3 +14738,34 @@ select {
   color: #000000;
   font-size: 13px;
 }
+
+
+.header-style-2 .header-nav .nav > li > .sub-menu 
+{
+	    left: -60px !important;
+}
+
+
+.testimonial-1-content .testimonial-1 .testimonial-info .testimonial-rating i {
+    color: #ed0900;
+}
+.owl-carousel .owl-nav button.owl-next:hover,.owl-carousel .owl-nav button.owl-prev:active {
+    background-color: #ed0900 !important;
+}
+
+.owl-carousel .owl-nav button.owl-next:hover, .owl-carousel .owl-nav button.owl-prev:active{
+      background-color: #ed0900 !important;
+}
+.owl-carousel .owl-nav button.owl-prev:hover{
+   background-color: #ed0900 !important;
+}
+.owl-carousel .owl-nav button.owl-prev:focus{
+     background-color: #ed0900 !important;
+}
+.owl-carousel .owl-nav button.owl-next:focus{
+     background-color: #ed0900 !important;
+}
+
+.team-effect-hvr2 p.icon-links a:has(.bi-dribbble) {
+  display: none;
+}

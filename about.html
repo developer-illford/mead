@@ -11,9 +11,9 @@
     <meta name="description" content="">
 
     <!-- FAVICONS ICON -->
-    <!-- <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon-v2.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon-v2.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32-v2.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png"> -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
 
     <!-- PAGE TITLE HERE -->
     <title>MEAD</title>
@@ -59,6 +59,21 @@
 @keyframes spin{
     0%{ transform: rotate(0deg); }
     100%{ transform: rotate(360deg); }
+}
+
+.icon-box-style-three-wrap .icon-box-style-three {
+    padding: 20px 40px;
+}
+
+ @media (max-width: 1024px) {
+    .heading .above, .heading .below {
+        display: block;
+                font-size: 30px;
+    }
+
+    .acd-bx.enabled .section:not(.open) h2.heading .above, .acd-bx.enabled .section:not(.open) h2.heading .below {
+    display: block;
+    }
 }
 </style>
 </head>
@@ -118,9 +133,11 @@
 
                              <ul class=" nav navbar-nav">
                                 <li><a href="index.html">Home</a></li>
+                                  <li><a href="about.html">About</a></li>
                               
-                                       <!-- <li class="menu-arrow"><a href="services.html">Services</a></li> -->
-                                   <li class="has-child"><a href="javascript:;">Interiors</a>
+                                        <!-- <li class="menu-arrow"><a href="services.html">Services</a></li> -->
+
+                                   <!-- <li class="has-child"><a href="javascript:;">Interiors</a>
                                     <ul class="sub-menu">
                                         <li><a href="service-detail.html">Interior Design</a></li>
                                         <li><a href="service-detail.html">Smart Space</a></li>
@@ -136,13 +153,43 @@
                                         <li><a href="service-detail.html">Architecture & Design</a></li>
                                         <li><a href="service-detail.html">Interior Design & Fit-Out</a></li>
                                         <li><a href="service-detail.html">Maintenance & Facility Management</a></li>
-
-                                 
                                     </ul>                                                                 
+                                </li> -->
+
+
+                                 <li class="has-child">
+                                    <a href="javascript:;">Services</a>
+                                    <ul class="sub-menu">
+
+                                        <li><a href="javascript:;">Interiors</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="interiors.html#residential-interior-design">Residential Interior Design</a></li>
+                                                <li><a href="interiors.html#commercial-interior-fit-outs">Commercial Interior Fit-Outs</a></li>
+                                                  <li><a href="interiors.html#modular-kitchen-solutions">Modular Kitchen Solutions</a></li>
+                                                    <li><a href="interiors.html#bedroom-and-wardrobe-design">Bedroom & Wardrobe Design</a></li>
+                                                      <li><a href="interiors.html#false-ceiling-and-lighting-design">False Ceiling & Lighting Design</a></li>
+                                                        <li><a href="interiors.html#renovation-and-remodeling-services">Renovation & Remodeling Services</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li><a href="javascript:;">Constructions</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="constructions.html#residential-construction">Residential Construction</a></li>
+                                                <li><a href="constructions.html#commercial-construction">Commercial Construction</a></li>
+                                                   <li><a href="constructions.html#turnkey-construction-projects">Turnkey Construction Projects</a></li>
+                                                      <li><a href="constructions.html#structural-and-civil-works">Structural & Civil Works</a></li>
+                                                         <li><a href="constructions.html#renovation-and-extension-projects">Renovation & Extension Projects</a></li>
+                                                       <li><a href="constructions.html#project-management-and-consulting">Project Management & Consulting</a></li>
+                                            </ul>
+                                        </li>                                              
+                                    </ul>                                
                                 </li>
+
+
+
                                 <li><a href="project.html">Portfolio</a></li>
                                 <li><a href="career.html">Careers</a></li>
-                                  <li><a href="about.html">About</a></li>
+                                
                                 <li><a href="contact.html">Contact</a></li>
 
                                 </ul>
@@ -290,27 +337,53 @@
 
             <!--About Some info Sction-->
             <div class="twm-abt2-s-info">
+
+                          <div class="container">
+                    <!-- TITLE START-->
+                    <div class="section-head center wt-small-separator-outer">
+                        <div class="wt-small-separator site-text-primary">
+                            <i class="bi bi-house"></i>
+                            <div>About Us</div>
+                        </div>
+                        <h2 class="wt-title title_split_anim">MEAD To Execute Works For Interior Design Llc</h2>
+                    </div>
+                    <!-- TITLE END-->
+                </div>
+<style>
+    .twm-abt2-certi-info{
+            padding: 0;    padding-bottom: 30px;
+    }
+
+    @media only screen and (max-width: 768px) {
+
+        .twm-abt2-s-info {
+        padding: 20px 12px;
+    }
+
+    .about-max-two-position{
+        display: none;
+    }
+
+}
+</style>
+
                 <div class="container">
                     <div class="twm-abt2-certi-info">
-                        <h2 class="title">Our Company</h2>
+                        <!-- <h2 class="title">Our Company</h2> -->
                         <div class="twm-abt2-certi-info-detail">
-                            <p>MEAD Constructions is a full-service Engineering, Procurement, and Construction (EPC)
-                                firm specializing in RCC and Pre-Engineered Buildings. We deliver complete civil and
-                                structural solutions—from design and procurement to construction, interiors, and
-                                maintenance. Our integrated approach ensures faster delivery, seamless coordination, and
-                                top-quality results.
+                            <p>We bring your vision to life through expert interior fit-out solutions tailored to your unique needs. From initial design
+concepts to final execution, we manage every aspect of the fit-out process with precision and creativity. Our team
+excels in crafting comprehensive design and approval documentation, ensuring that every detail is aligned with your
+expectations.
                             </p>
-                            <p>MEAD Interior Design LLC, Dubai, established in 2011, is a multidisciplinary interior
-                                design and space planning firm. Based in Al Qusais, we serve a wide range of
-                                clients—from private residences and luxury villas to retail, F&B outlets, corporate
-                                offices, and hospitality projects. With expertise in architecture, design, and project
-                                management, we blend creativity and functionality to deliver inspiring spaces.
+                            <p>Our state-of-the-art joinery factory and dedicated painting booth allow us to deliver high-quality joinery works that
+reflect exceptional craftsmanship. Whether it’s custom cabinetry, unique furniture pieces, or intricate architectural elements, we take pride in our meticulous approach to every project.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="twm-abt2-s-info-media  parallax-section">
-                    <div class="parallax-image" style="background-image: url(images/background/ab2.jpg);"></div>
+                    <div class="parallax-image" style="background-image: url(images/background/ab2.png);"></div>
                 </div>
                 <!-- <div class="twm-abt2-certi">
                     <ul class="twm-abt2-certi-list-bx">
@@ -359,10 +432,10 @@
 
                                 <div class="col-lg-7 col-md-12 m-b30 about-max-two-position">
                                     <div class="about-max-two">
-                                        <div class="about-max-two-media"><img src="images/about/l-pic.jpg" alt=""></div>
+                                        <div class="about-max-two-media"><img src="images/about/pic.png" alt=""></div>
                                         <div class="about-max-two-media2-wrap">
                                             <div class="about-max-two-media2">
-                                                <img src="images/about/s-pic.jpg" alt="">
+                                                <img src="images/about/s-pic.png" alt="">
                                             </div>
                                         </div>
 
@@ -389,7 +462,7 @@
                                             <h3 class="twm-title">Our Skills </h3>
                                             <div class="row">
 
-                                                <div class="col-md-12 m-b30">
+                                                <!-- <div class="col-md-12 m-b30">
                                                     <div class="our-skills-item">
                                                         <span class="progressText">Architecture</span>
                                                         <div class="progress-box">
@@ -403,7 +476,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
+                                                </div> -->
 
                                                 <div class="col-md-12 m-b30">
                                                     <div class="our-skills-item">
@@ -414,7 +487,7 @@
                                                                     data-wow-delay="0ms" data-wow-duration="2000ms"
                                                                     role="progressbar"
                                                                     style="--progress-bar-count: 85%">
-                                                                    <span>85%</span>
+                                                                    <span>95%</span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -430,7 +503,7 @@
                                                                     data-wow-delay="0ms" data-wow-duration="2000ms"
                                                                     role="progressbar"
                                                                     style="--progress-bar-count: 80%">
-                                                                    <span>80%</span>
+                                                                    <span>90%</span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -440,7 +513,7 @@
                                             </div>
                                         </div>
 
-                                        <a href="services.html" class="site-button">Read More</a>
+                                        <!-- <a href="services.html" class="site-button">Read More</a> -->
                                     </div>
 
                                 </div>
@@ -567,74 +640,95 @@
             </div>
             <!-- category End -->
 
+
+<!--------start our process---->
+
+            <div class="section-full p-t60 p-b10 ">
+      <div class="container">
+                    <!-- TITLE START-->
+                    <div class="section-head center wt-small-separator-outer">
+                        <div class="wt-small-separator site-text-primary">
+                            <i class="bi bi-house"></i>
+                            <div>How We Work</div>
+                        </div>
+                        <h2 class="wt-title title_split_anim">Our Process</h2>
+                    </div>
+                    <!-- TITLE END-->
+                </div>
+</div>
+
+
             <!-- OUR VALUE SECTION START -->
             <div class="twm-acd-st-1">
-                <div class="acd-bx" data-background="images/acd-bg/pic1.jpg"
-                    style="background-image: url(&quot;images/acd-bg/pic1.jpg&quot;);">
+                <div class="acd-bx" data-background="images/acd-bg/pic1.png"
+                    style="background-image: url(&quot;images/acd-bg/pic1.png&quot;);">
                     <div class="twm-acd-overlay"></div>
 
-                    <article class="section" data-background="images/acd-bg/pic1.jpg">
+                    <article class="section" data-background="images/acd-bg/pic1.png">
                         <span class="close">
                             <span class="cross">
                                 <span class="a"></span>
                                 <span class="b"></span>
                             </span>
                         </span>
-                        <h2 class="heading"><span class="above">01</span>EPC <br> Expertise<span class="below">+</span>
+                        <h2 class="heading"><span class="above">01</span>Preliminary<br> Drawings<span class="below">+</span>
                         </h2>
                         <div class="inside-content"><br>
-                            Providing end-to-end engineering, procurement, and construction solutions with seamless
-                            design-build integration for every project requirement.
+                            Preliminary drawings are prepared based on the site
+the survey and our design team prepared the design proposals.
                         </div>
                     </article>
 
-                    <article class="section" data-background="images/acd-bg/pic2.jpg">
+                    <article class="section" data-background="images/acd-bg/pic2.png">
                         <span class="close">
                             <span class="cross">
                                 <span class="a"></span>
                                 <span class="b"></span>
                             </span>
                         </span>
-                        <h2 class="heading"><span class="above">02</span>Skilled <br> Team<span class="below">+</span>
+                        <h2 class="heading"><span class="above">02</span>Detailed <br> Cost Estimate<span class="below">+</span>
                         </h2>
                         <div class="inside-content"><br>
-                            A dedicated team of civil engineers, architects, and designers delivering innovative,
-                            practical, and aesthetic solutions for all projects.
+                            Cost estimate is furnished based on the client’s
+requirements. We specialize in value engineering
+and cost effective design solutions
                         </div>
                     </article>
 
-                    <article class="section" data-background="images/acd-bg/pic3.jpg">
+                    <article class="section" data-background="images/acd-bg/pic3.png">
                         <span class="close">
                             <span class="cross">
                                 <span class="a"></span>
                                 <span class="b"></span>
                             </span>
                         </span>
-                        <h2 class="heading"><span class="above">03</span>Timely Delivery<span class="below">+</span>
+                        <h2 class="heading"><span class="above">03</span>3d And Construction Drawings<span class="below">+</span>
                         </h2>
                         <div class="inside-content">
-                            Ensuring projects are completed on schedule while optimizing costs, without compromising
-                            quality or design standards.
+                            We have the expertise to handle all approval processes within
+the UAE, including managing approved quotations, detailed
+drawings, 3D models, construction, and approval drawings.
                         </div>
                     </article>
 
-                    <article class="section" data-background="images/acd-bg/pic4.jpg">
+                    <article class="section" data-background="images/acd-bg/pic4.png">
                         <span class="close">
                             <span class="cross">
                                 <span class="a"></span>
                                 <span class="b"></span>
                             </span>
                         </span>
-                        <h2 class="heading"><span class="above">04</span>Quality Assurance
+                        <h2 class="heading"><span class="above">04</span>Project Management And Supervision
                             <span class="below">+</span>
                         </h2>
                         <div class="inside-content">
-                            Committed to strict quality control, safety measures, and premium materials to guarantee
-                            long-lasting, reliable project outcomes.
+                           Our experienced project managers prepare the
+project schedules and monitor quality oriented and
+timely completion of your projects
                         </div>
                     </article>
 
-                    <article class="section" data-background="images/acd-bg/pic5.jpg">
+                    <!-- <article class="section" data-background="images/acd-bg/pic5.jpg">
                         <span class="close">
                             <span class="cross">
                                 <span class="a"></span>
@@ -647,9 +741,9 @@
                             Tailoring solutions to client needs, prioritizing communication, and ensuring satisfaction
                             at every stage of the project.
                         </div>
-                    </article>
+                    </article> -->
 
-                    <article class="section" data-background="images/acd-bg/pic6.jpg">
+                    <!-- <article class="section" data-background="images/acd-bg/pic6.jpg">
                         <span class="close">
                             <span class="cross">
                                 <span class="a"></span>
@@ -662,11 +756,13 @@
                             Implementing eco-friendly designs and sustainable construction practices to reduce
                             environmental impact and promote long-term efficiency.
                         </div>
-                    </article>
+                    </article> -->
                 </div>
             </div>
             <!-- OUR VALUE SECTION End -->
 
+
+            <!--------end our process---->
 
 
             <!-- OUR TEAM START -->
@@ -819,20 +915,19 @@
                                         <div class="wt-icon-box-wraper">
                                             <div class="icon-lg">
                                                 <span class="icon-cell site-text-primary">
-                                                    <img src="images/icons/furniture-2.png" alt="Image"></span>
+                                                    <img src="images/icons/architecture.png" alt="Image"></span>
                                             </div>
                                         </div>
 
                                         <div class="icon-box-three-title">
-                                            <h3 class="wt-title"><a href="service-detail.html">Interior Fitout</a></h3>
+                                            <h3 class="wt-title">Interior Fitout</h3>
                                         </div>
 
                                         <div class="icon-box-three-content">
                                             <p>Complete fit-out works including flooring, ceilings, partitions, and
                                                 joinery services.</p>
 
-                                            <a href="services.html" class="site-button-link site-text-primary">Read
-                                                More</a>
+                                      
                                         </div>
 
                                     </div>
@@ -847,12 +942,12 @@
                                         <div class="wt-icon-box-wraper">
                                             <div class="icon-lg">
                                                 <span class="icon-cell site-text-primary"><img
-                                                        src="images/icons/window.png" alt="Image"></span>
+                                                        src="images/icons/project-management.png" alt="Image"></span>
                                             </div>
                                         </div>
 
                                         <div class="icon-box-three-title">
-                                            <h3 class="wt-title"><a href="service-detail.html">Project Management</a>
+                                            <h3 class="wt-title">Project Management
                                             </h3>
                                         </div>
 
@@ -860,8 +955,7 @@
                                             <p>End-to-end project coordination ensuring quality, timelines, and smooth
                                                 execution.</p>
 
-                                            <a href="services.html" class="site-button-link site-text-primary">Read
-                                                More</a>
+                                           
                                         </div>
 
                                     </div>
@@ -876,20 +970,19 @@
                                         <div class="wt-icon-box-wraper">
                                             <div class="icon-lg">
                                                 <span class="icon-cell site-text-primary"><img
-                                                        src="images/icons/candles.png" alt="Image"></span>
+                                                        src="images/icons/idea.png" alt="Image"></span>
                                             </div>
                                         </div>
 
                                         <div class="icon-box-three-title">
-                                            <h3 class="wt-title"><a href="service-detail.html">Smart Technology</a></h3>
+                                            <h3 class="wt-title">Smart Technology</h3>
                                         </div>
 
                                         <div class="icon-box-three-content">
                                             <p>Smart systems integration for lighting, climate, security, and automation
                                                 control.</p>
 
-                                            <a href="services.html" class="site-button-link site-text-primary">Read
-                                                More</a>
+                                         
                                         </div>
 
                                     </div>
@@ -904,12 +997,12 @@
                                         <div class="wt-icon-box-wraper">
                                             <div class="icon-lg">
                                                 <span class="icon-cell site-text-primary"><img
-                                                        src="images/icons/curtain.png" alt="Image"></span>
+                                                        src="images/icons/approval.png" alt="Image"></span>
                                             </div>
                                         </div>
 
                                         <div class="icon-box-three-title">
-                                            <h3 class="wt-title"><a href="service-detail.html">Authority Approval</a>
+                                            <h3 class="wt-title">Authority Approval
                                             </h3>
                                         </div>
 
@@ -917,8 +1010,7 @@
                                             <p>Managing all authority submissions, drawings, permits, and compliance
                                                 approvals.</p>
 
-                                            <a href="services.html" class="site-button-link site-text-primary">Read
-                                                More</a>
+                                           
                                         </div>
 
                                     </div>
@@ -933,20 +1025,19 @@
                                         <div class="wt-icon-box-wraper">
                                             <div class="icon-lg">
                                                 <span class="icon-cell site-text-primary"><img
-                                                        src="images/icons/key.png" alt="Image"></span>
+                                                        src="images/icons/work-in-progress.png" alt="Image"></span>
                                             </div>
                                         </div>
 
                                         <div class="icon-box-three-title">
-                                            <h3 class="wt-title"><a href="service-detail.html">Signage Works</a></h3>
+                                            <h3 class="wt-title">Signage Works</h3>
                                         </div>
 
                                         <div class="icon-box-three-content">
                                             <p>Custom indoor and outdoor signage design, production, and professional
                                                 installation.</p>
 
-                                            <a href="services.html" class="site-button-link site-text-primary">Read
-                                                More</a>
+                                           
                                         </div>
 
                                     </div>
@@ -963,12 +1054,12 @@
                                         <div class="wt-icon-box-wraper">
                                             <div class="icon-lg">
                                                 <span class="icon-cell site-text-primary"><img
-                                                        src="images/icons/key.png" alt="Image"></span>
+                                                        src="images/icons/furnitures.png" alt="Image"></span>
                                             </div>
                                         </div>
 
                                         <div class="icon-box-three-title">
-                                            <h3 class="wt-title"><a href="service-detail.html">Furniture Trading</a>
+                                            <h3 class="wt-title">Furniture Trading
                                             </h3>
                                         </div>
 
@@ -976,8 +1067,7 @@
                                             <p>Supplying high-quality furniture solutions for homes, offices, and
                                                 showrooms.</p>
 
-                                            <a href="services.html" class="site-button-link site-text-primary">Read
-                                                More</a>
+                                           
                                         </div>
 
                                     </div>
@@ -994,12 +1084,12 @@
                                         <div class="wt-icon-box-wraper">
                                             <div class="icon-lg">
                                                 <span class="icon-cell site-text-primary"><img
-                                                        src="images/icons/key.png" alt="Image"></span>
+                                                        src="images/icons/multitasking.png" alt="Image"></span>
                                             </div>
                                         </div>
 
                                         <div class="icon-box-three-title">
-                                            <h3 class="wt-title"><a href="service-detail.html">Multi Site Programs</a>
+                                            <h3 class="wt-title">Multi Site Programs
                                             </h3>
                                         </div>
 
@@ -1007,8 +1097,7 @@
                                             <p>Executing consistent project rollouts across multiple sites with unified
                                                 standards.</p>
 
-                                            <a href="services.html" class="site-button-link site-text-primary">Read
-                                                More</a>
+                                           
                                         </div>
 
                                     </div>
@@ -1025,12 +1114,12 @@
                                         <div class="wt-icon-box-wraper">
                                             <div class="icon-lg">
                                                 <span class="icon-cell site-text-primary"><img
-                                                        src="images/icons/key.png" alt="Image"></span>
+                                                        src="images/icons/cctv-camera.png" alt="Image"></span>
                                             </div>
                                         </div>
 
                                         <div class="icon-box-three-title">
-                                            <h3 class="wt-title"><a href="service-detail.html">CCTV / AV Solutions</a>
+                                            <h3 class="wt-title">CCTV / AV Solutions
                                             </h3>
                                         </div>
 
@@ -1039,8 +1128,7 @@
                                                 spaces.</p>
 
 
-                                            <a href="services.html" class="site-button-link site-text-primary">Read
-                                                More</a>
+                                           
                                         </div>
 
                                     </div>
@@ -1150,8 +1238,190 @@
     </div>
     <!-- OUR BLOG END -->
 
+
+
+
+
+
+<!--------mission----------->
+
+
+
+<section class="mission-section">
+
+      <div class="container">
+                    <!-- TITLE START-->
+                    <div class="section-head center wt-small-separator-outer">
+                        <div class="wt-small-separator site-text-primary">
+                            <i class="bi bi-house"></i>
+                            <div>Mission & Vision</div>
+                        </div>
+                        <h2 class="wt-title title_split_anim">Our Mission</h2>
+                    </div>
+                    <!-- TITLE END-->
+                </div>
+
+
+    <div class="container">
+        
+
+
+        <p class="mission-description">
+           As the statement defines our primary objective is to translate the ideas into a production-ready
+design and then manage the project through to successful handover. Bringing ideas to life and design
+options that are thorough and inspiring, by customer vision, lifestyle, and evolving priorities.
+        </p>
+
+        <div class="mission-values">
+            
+            <div class="mission-item">
+                <div class="icon-box">
+                    <i class="fas fa-award"></i>
+                </div>
+                <h4>Quality</h4>
+            </div>
+
+            <div class="mission-item">
+                <div class="icon-box">
+                    <i class="fas fa-ruler-combined"></i>
+                </div>
+                <h4>Passion</h4>
+            </div>
+
+            <div class="mission-item">
+                <div class="icon-box">
+                    <i class="fas fa-handshake"></i>
+                </div>
+                <h4>Trust</h4>
+            </div>
+
+            <div class="mission-item">
+                <div class="icon-box">
+                    <i class="fas fa-flask"></i>
+                </div>
+                <h4>Innovation</h4>
+            </div>
+
+            <div class="mission-item">
+                <div class="icon-box">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h4>Customer Satisfaction</h4>
+            </div>
+
+            <div class="mission-item">
+                <div class="icon-box">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h4>Integrity</h4>
+            </div>
+
+        </div>
+
+        <p class="mission-footer">
+          We ensure from start to finish that every element of the process is carried out to the best of our
+ability and in terms of quality. From design project management, right through to finishing and
+installation. Our client’s most demanding standards are brought to our attention in detail.
+        </p>
+
+    </div>
+</section>
+
+<style>
+
+.mission-section {
+    /* padding: 100px 20px; */
+    
+    /* text-align: center; */
+}
+
+.mission-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.mission-description {
+    /* max-width: 900px; */
+    margin: 0 auto 60px;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+}
+
+.mission-values {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px 30px;
+    /* max-width: 1000px; */
+    margin: 0 auto 60px;
+}
+
+.mission-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: flex-start;
+}
+
+.icon-box {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #f40404;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f40404;
+    font-size: 24px;
+}
+
+.mission-item h4 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.mission-footer {
+    /* max-width: 900px; */
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+
+    .mission-values {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px 5px;
+    }
+
+    .mission-item {
+       flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+       .mission-item h4 {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+}
+</style>
+
+
+
+
+
+
+
+
+
     <!-- FAQ SECTION START -->
-    <div class="section-full twm-faq-outer-wrap">
+    <div class="section-full twm-faq-outer-wrap" style="margin-bottom: 100px;">
         <div class="container-fluid">
             <div class="section-content">
                 <div class="faq-outer">
@@ -1297,9 +1567,7 @@
                             <div class="call-us">
                                 <a href="tel:+97145704989">+971 4 570 4989</a>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, iusto quando
-                                vocibus te vim no meaFar far away, lorem
-                                ipsum dolor sit amet, iusto quando.
+                            <p>MEAD is a leading EPC and interior design firm, specializing in RCC, Pre-Engineered Buildings, and Custom Interior Solutions.
                             </p>
                             <ul class="social-icons">
                                 <li><a href="https://www.x.com"><i class="bi bi-twitter-x cursor-scale small"></i></a>
@@ -1402,16 +1670,19 @@
                         </div> -->
 
 
-                    <div class="col-lg-4 col-md-6">
-                        <div class="widget f-top-space">
-                            <h3 class="widget-title"> Locate Us</h3><br>
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28857.8201841703!2d55.37491540217954!3d25.296558725775512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43c7c1f4dc7f%3A0x498b988a3151ed4c!2sMEAD%20Interior%20Design%20LLC!5e0!3m2!1sen!2sin!4v1760689233548!5m2!1sen!2sin"
-                                width="150%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <div class="col-lg-4 col-md-6">
+                            <div class="widget f-top-space">
+                                <h3 class="widget-title"> Locate Us</h3><br>
+                                <div class="responsive-map">
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28857.8201841703!2d55.37491540217954!3d25.296558725775512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43c7c1f4dc7f%3A0x498b988a3151ed4c!2sMEAD%20Interior%20Design%20LLC!5e0!3m2!1sen!2sin!4v1760689233548!5m2!1sen!2sin"
+                                        allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
 
+
+                            </div>
                         </div>
-                    </div>
 
 
 

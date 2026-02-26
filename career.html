@@ -11,8 +11,11 @@
     <meta name="description" content="">
 
     <!-- FAVICONS ICON -->
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+    <!-- <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png"> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon-v2.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32-v2.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
 
     <!-- PAGE TITLE HERE -->
     <title>MEAD</title>
@@ -58,6 +61,16 @@
 @keyframes spin{
     0%{ transform: rotate(0deg); }
     100%{ transform: rotate(360deg); }
+}
+
+.career-btn{
+        background: #ed0900;  padding:7px 18px;    height: 38px;
+}
+.career-btn:hover {
+    background: #ffffff;
+    color: #ed0900;
+    border: 1px solid #ed0900;
+        padding:7px 18px;
 }
 </style>
 </head>
@@ -115,11 +128,12 @@
                         <!-- MAIN Vav -->
                         <div class="nav-animation header-nav navbar-collapse collapse d-flex justify-content-end">
 
-                             <ul class=" nav navbar-nav">
+                           <ul class=" nav navbar-nav">
                                 <li><a href="index.html">Home</a></li>
-                              
-                                         <!-- <li class="menu-arrow"><a href="services.html">Services</a></li> -->
-                                   <li class="has-child"><a href="javascript:;">Interiors</a>
+                                <li><a href="about.html">About</a></li>
+                                        <!-- <li class="menu-arrow"><a href="services.html">Services</a></li> -->
+
+                                   <!-- <li class="has-child"><a href="javascript:;">Interiors</a>
                                     <ul class="sub-menu">
                                         <li><a href="service-detail.html">Interior Design</a></li>
                                         <li><a href="service-detail.html">Smart Space</a></li>
@@ -135,18 +149,48 @@
                                         <li><a href="service-detail.html">Architecture & Design</a></li>
                                         <li><a href="service-detail.html">Interior Design & Fit-Out</a></li>
                                         <li><a href="service-detail.html">Maintenance & Facility Management</a></li>
-
-                                 
                                     </ul>                                                                 
+                                </li> -->
+
+
+                                  <li class="has-child">
+                                    <a href="javascript:;">Services</a>
+                                    <ul class="sub-menu">
+
+                                        <li><a href="javascript:;">Interiors</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="interiors.html#residential-interior-design">Residential Interior Design</a></li>
+                                                <li><a href="interiors.html#commercial-interior-fit-outs">Commercial Interior Fit-Outs</a></li>
+                                                  <li><a href="interiors.html#modular-kitchen-solutions">Modular Kitchen Solutions</a></li>
+                                                    <li><a href="interiors.html#bedroom-and-wardrobe-design">Bedroom & Wardrobe Design</a></li>
+                                                      <li><a href="interiors.html#false-ceiling-and-lighting-design">False Ceiling & Lighting Design</a></li>
+                                                        <li><a href="interiors.html#renovation-and-remodeling-services">Renovation & Remodeling Services</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li><a href="javascript:;">Constructions</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="constructions.html#residential-construction">Residential Construction</a></li>
+                                                <li><a href="constructions.html#commercial-construction">Commercial Construction</a></li>
+                                                   <li><a href="constructions.html#turnkey-construction-projects">Turnkey Construction Projects</a></li>
+                                                      <li><a href="constructions.html#structural-and-civil-works">Structural & Civil Works</a></li>
+                                                         <li><a href="constructions.html#renovation-and-extension-projects">Renovation & Extension Projects</a></li>
+                                                          <li><a href="constructions.html#project-management-and-consulting">Project Management & Consulting</a></li>
+                                            </ul>
+                                        </li>                                              
+                                    </ul>                                
                                 </li>
+
+
+
                                 <li><a href="project.html">Portfolio</a></li>
                                 <li><a href="career.html">Careers</a></li>
-                                  <li><a href="about.html">About</a></li>
+                                
                                 <li><a href="contact.html">Contact</a></li>
 
-                                </ul>
+                                </ul>  
 
-</div>
+                        </div>
 
 
                                 <!-- SITE Search -->
@@ -320,7 +364,7 @@
                                         Execute and supervise RCC and civil works while ensuring quality, safety, and
                                         timelines.
                                     </p>
-                                    <a href="apply.html?job=Civil Site Engineer" class="career-btn">Apply Now</a>
+                                    <a href="javascript:;" data-name="Civil Site Engineer" data-bs-toggle="modal" data-bs-target="#applyNowModal" class="career-btn services-two__btn">Apply Now</a>
                                 </div>
                             </div>
                         </div>
@@ -340,7 +384,7 @@
                                     <p class="career-desc">
                                         Design RCC and PEB structures with accurate calculations and compliant drawings.
                                     </p>
-                                    <a href="apply.html?job=Structural Engineer" class="career-btn">Apply Now</a>
+                                    <a href="javascript:;" data-name="Structural Engineer" data-bs-toggle="modal" data-bs-target="#applyNowModal" class="career-btn services-two__btn">Apply Now</a>
                                 </div>
                             </div>
                         </div>
@@ -361,7 +405,7 @@
                                         Develop efficient pre-engineered building designs and coordinate with execution
                                         teams.
                                     </p>
-                                    <a href="apply.html?job=PEB Design Engineer" class="career-btn">Apply Now</a>
+                                   <a href="javascript:;" data-name="PEB Design Engineer" data-bs-toggle="modal" data-bs-target="#applyNowModal" class="career-btn services-two__btn">Apply Now</a>
                                 </div>
                             </div>
                         </div>
@@ -382,7 +426,7 @@
                                         Create functional architectural designs and detailed drawings for diverse
                                         projects.
                                     </p>
-                                    <a href="apply.html?job=Architect" class="career-btn">Apply Now</a>
+                                    <a href="javascript:;" data-name="Architect" data-bs-toggle="modal" data-bs-target="#applyNowModal" class="career-btn services-two__btn">Apply Now</a>
                                 </div>
                             </div>
                         </div>
@@ -403,7 +447,7 @@
                                     <p class="career-desc">
                                         Design creative interior spaces with practical layouts and material selections.
                                     </p>
-                                    <a href="apply.html?job=Interior Designer" class="career-btn">Apply Now</a>
+                                    <a href="javascript:;" data-name="Interior Designer" data-bs-toggle="modal" data-bs-target="#applyNowModal" class="career-btn services-two__btn">Apply Now</a>
                                 </div>
                             </div>
                         </div>
@@ -425,7 +469,7 @@
                                     <p class="career-desc">
                                         Manage interior fit-out projects from planning to successful handover.
                                     </p>
-                                    <a href="apply.html?job=Fit-Out Project Manager" class="career-btn">Apply Now</a>
+                                   <a href="javascript:;" data-name="Fit-Out Project Manager" data-bs-toggle="modal" data-bs-target="#applyNowModal" class="career-btn services-two__btn">Apply Now</a>
                                 </div>
                             </div>
                         </div>
@@ -446,7 +490,7 @@
                                     <p class="career-desc">
                                         Source construction and fit-out materials while managing vendors and costs.
                                     </p>
-                                    <a href="apply.html?job=Procurement Engineer" class="career-btn">Apply Now</a>
+                                   <a href="javascript:;" data-name="Procurement Engineer" data-bs-toggle="modal" data-bs-target="#applyNowModal" class="career-btn services-two__btn">Apply Now</a>
                                 </div>
                             </div>
                         </div>
@@ -468,7 +512,7 @@
                                     <p class="career-desc">
                                         Oversee building maintenance and facility operations for smooth performance.
                                     </p>
-                                    <a href="apply.html?job=Facility Manager" class="career-btn">Apply Now</a>
+                                     <a href="javascript:;" data-name="Facility Manager" data-bs-toggle="modal" data-bs-target="#applyNowModal" class="career-btn services-two__btn">Apply Now</a>
                                 </div>
                             </div>
                         </div>
@@ -504,9 +548,7 @@
                                 <div class="call-us">
                                     <a href="tel:+97145704989">+971 4 570 4989</a>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, iusto quando
-                                    vocibus te vim no meaFar far away, lorem
-                                    ipsum dolor sit amet, iusto quando.
+                                <p>MEAD is a leading EPC and interior design firm, specializing in RCC, Pre-Engineered Buildings, and Custom Interior Solutions.
                                 </p>
                                 <ul class="social-icons">
                                     <li><a href="https://www.x.com"><i
@@ -661,6 +703,153 @@
 
 
     <!-- JAVASCRIPT  FILES ========================================= -->
+
+
+    
+<style>
+.section-title__title {
+    color: #1f2933;
+}
+.services-two__btn{font-size:15px;}
+    /* .services-two__btn{ background-color: #21592c !important;color:white !important;} */
+.modal-footer{    justify-content: center;
+    }
+    .modal-header{
+       background-color:#ed0900 !important; 
+    }
+     .modal-header h5{
+        color:#ffffff;
+		font-size: 23px;
+     }
+     .call-one{
+        background-color: #ed0900 ;
+            margin-bottom: 100px;
+     }
+     .call-one__call-number a i{
+        background-color: #ed0900 ;
+     }
+     .btn-close{opacity: 1;}
+
+
+
+
+
+	 .modal{z-index: 999999;}
+    </style>
+
+<div class="modal fade" id="applyNowModal" tabindex="-1" aria-labelledby="applyNowLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content shadow-lg border-0">
+
+      <!-- Modal Header -->
+<div class="modal-header bg-primary text-white position-relative justify-content-center">
+    <h5 class="modal-title text-center" id="applyNowLabel">Career Application</h5>
+    <button type="button"
+            class="btn-close btn-close-white position-absolute end-0 me-3"
+            data-bs-dismiss="modal"></button>
+</div>
+
+
+
+      <!-- Modal Body -->
+      <div class="modal-body p-4">
+        <style>
+            .form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+        </style>
+        <form action="career_action" method="POST" enctype="multipart/form-data">
+
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label">Full Name</label>
+              <input type="text" class="form-control" placeholder="Enter your name" required name="name">
+            </div>
+
+            <div class="col-md-6">
+              <label class="form-label">Email Address</label>
+              <input type="email" class="form-control" placeholder="Enter your email" required name="email">
+            </div>
+
+            <div class="col-md-6">
+              <label class="form-label">Phone Number</label>
+              <input type="tel" class="form-control" placeholder="Enter your phone number" required name="phone">
+            </div>
+
+            <div class="col-md-6">
+              <label class="form-label">Select Option</label>
+              <!-- <input type="tel" class="form-control" placeholder="Enter your phone number" required name="experience"> -->
+			   <select name="input_service" id="ff_3_input_service" class="form-control" data-name="input_service" data-calc_value="0" aria-invalid="false"
+			    aria-required="true">
+				<option value="">- Select Position -</option>
+				<option value="Civil Site Engineer">Clinical Staff</option>
+				<option value="Structural Engineer">Structural Engineer</option>
+				<option value="PEB Design Engineer">PEB Design Engineer</option>
+				<option value="Architect">Architect</option>
+				<option value="Interior Designer">Interior Designer</option>
+				<option value="Fit-Out Project Manager">Fit-Out Project Manager</option>
+                	<option value="Procurement Engineer">Procurement Engineer</option>
+                    	<option value="Facility Manager">Facility Manager</option>
+			</select>
+            </div>
+
+            <div class="col-12">
+              <label class="form-label">Upload CV/Resume</label>
+              <input type="file" class="form-control" required name="resume" accept=".pdf,.doc,.docx">
+              <small class="text-muted">Accepted formats: PDF, DOC, DOCX</small>
+            </div>
+
+            <div class="col-12">
+              <label class="form-label">Message</label>
+              <textarea class="form-control" rows="4" placeholder="Brief introduction about yourself" required name="message"></textarea>
+            </div>
+          </div>
+<br/>
+ <input type="text" name="website" style="display:none">
+
+                                    <div class="g-recaptcha" data-sitekey="6Lffx10sAAAAAA8al1w3DHWjoCWTbhJRwhZDr4zq">
+                                    </div><br/>
+            <div class="modal-footer">
+  
+        
+        <div style="text-align:center;margin: 20px 0;" class="submit_car_btn">
+         <!-- <button type="submit" class="services-two__btn" style="width: 100%;border:none;">Submit</button>  -->
+		  <div class="col-lg-12 col-md-12">
+									<div class="form-box-button">
+										<button type="submit" class="site-button">Submit Now</button>
+									</div>
+								</div>
+         </div>
+        
+
+      </div>
+    
+    
+        </form>
+      </div>
+
+      <!-- Modal Footer -->
+  
+
+    </div>
+  </div>
+</div>
+
+
     <script src="js/jquery-3.7.1.min.js"></script><!-- JQUERY.MIN JS -->
     <script src="js/popper.min.js"></script><!-- POPPER.MIN JS -->
     <script src="js/bootstrap.min.js"></script><!-- BOOTSTRAP.MIN JS -->
@@ -684,6 +873,43 @@
     <script src="js/gsap.min.js"></script><!-- cursor -->
     <script src="js/custom.js"></script><!-- CUSTOM FUCTIONS  -->
 
+
+
+
+
+    
+<script>
+
+	document.addEventListener("DOMContentLoaded", function () {
+
+		  const closeBtn = document.querySelector(".btn-close-white");
+    const editButtons = document.querySelectorAll(".services-two__btn");
+
+
+	   editButtons.forEach(function(button) {
+        button.addEventListener("click", function() {
+
+            // Get values from data attributes
+            const name = this.getAttribute("data-name");
+         
+// alert(name)
+            // Set form values
+            document.getElementById("ff_3_input_service").value = name;
+         
+
+            // Show modal
+            // modal.style.display = "block";
+        });
+    });
+
+    // Close modal
+    closeBtn.addEventListener("click", function() {
+        // modal.style.display = "none";
+    });
+
+
+	});
+	</script>
 </body>
 
 </html>
